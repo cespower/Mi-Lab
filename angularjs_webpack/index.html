@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AngularJS - Webpack</title>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body ng-app="demoApp">
+	<div class="container">
+		<br />
+		<div ng-controller="miController as ctrl">
+			Nombre: <input type="text" ng-model="ctrl.name"><br />
+			Correo electrónico: <input type="text" ng-model="ctrl.email"><br />
+			Bienvenido: {{ ctrl.welcomeMsg() }}
+		</div>
+	</div>
+	<script src="js/vendor.bundle.js"></script>
+	<script src="js/app.bundle.js"></script>
+</body>
+</html>

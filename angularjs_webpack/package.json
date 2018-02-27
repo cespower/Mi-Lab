@@ -1,0 +1,16 @@
+{
+  "name": "angularjs_webpack",
+  "version": "1.0.0",
+  "description": "Prueba de AngularJS + Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle":"webpack"
+  },
+  "author": "CesPowerMetal",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "angular": "~1.5.0",
+    "webpack": "~1.12.14"
+  }
+}

@@ -1,0 +1,12 @@
+1.- Inicializar el proyecto:
+	npm init -y
+
+2.- Instalar angular y webpack:
+	npm install angular webpack --save-dev
+
+3.- Configurar webpack, creando el archivo webpack.config.js
+
+4.- Compilar la aplicación:
+	npm run bundle
+
+	
