@@ -15,7 +15,8 @@
     "react-dom": "^0.14.0",
     "webpack": "^1.9.10",
     "react-mixin": "~4.0.0",
-    "react-addons-pure-render-mixin": "~15.6.2"
+    "react-addons-pure-render-mixin": "~15.6.2",
+    "moment": "~2.20.1"
   },
   "scripts": {
     "build": "webpack"
