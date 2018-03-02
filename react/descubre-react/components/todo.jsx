@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Tasks from './tasks';
+//import Tasks from './tasks';
 import Task from './task';
+import Header from './header';
+import Content from './content';
 
 class ToDo extends React.Component{
 
@@ -13,12 +15,14 @@ class ToDo extends React.Component{
 	render(){
 		return (
 			<div>
-				<Tasks>
+				<Header />
+				<Content>
 					<Task ref='first' name='Introduction' done />
 					<Task name='Chapter 1 - First component' done />
 					<Task name='Chapter 2 - Properties' />
 					<Task />
-				</Tasks>
+				</Content>
+				<footer>Copyright...</footer>
 			</div>
 		)
 	}
