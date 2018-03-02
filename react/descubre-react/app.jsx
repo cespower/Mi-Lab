@@ -6,7 +6,13 @@ import Link from './components/link';
 import ToDo from './components/todo';
 import Image from './components/image';
 import Count from './components/count';
-import Heroes from './components/heroes.jsx'
+import Heroes from './components/heroes'
+import HelloMixin from './components/mixin.hello';
+import PureRenderMixin from './components/hello.pure_render_mixin';
+import MomentWrapper from './components/moment_wrapper';
+import Cart from './components/cart';
+import Cart2 from './components/cart2';
+import HelloStateless from './components/hello-stateless';
 
 //ReactDOM.render(, document.getElementById('container'));
 
@@ -33,6 +39,19 @@ class App extends React.Component{
 				<Count total='0' />
 				<hr />
 				<Heroes />
+				<hr />
+				<HelloMixin />
+				<hr />
+				<PureRenderMixin />
+				<hr />
+				<MomentWrapper format="YYYY/MM/DD" /><br />
+				<MomentWrapper date={new Date("04/06/1983")} format="DD-MM-YYYY" />
+				<hr />
+				<Cart />
+				<hr />
+				<Cart2 />
+				<hr />
+				<HelloStateless caption={'CesPowerMetal'} />
 			</div>
 		)
 	}
