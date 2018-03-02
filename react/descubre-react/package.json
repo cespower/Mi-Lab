@@ -13,7 +13,9 @@
     "http-server": "^0.11.1",
     "react": "^0.14",
     "react-dom": "^0.14.0",
-    "webpack": "^1.9.10"
+    "webpack": "^1.9.10",
+    "react-mixin": "~4.0.0",
+    "react-addons-pure-render-mixin": "~15.6.2"
   },
   "scripts": {
     "build": "webpack"
